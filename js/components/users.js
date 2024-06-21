@@ -6,8 +6,10 @@ export const getUsers=(users)=>{
     resultList.innerHTML = users.map(user =>   
     `  
         <li>
+        <div id='content'>
             <h3>${user.name_full}</h3>                         
-            <p>${user.description}</p>                         
+            <p>${user.description}</p>  
+        </div>                       
             <img src="${user.avatar}" alt="${user.name_full}"> 
         </li>
     `

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+}
+
+body {
+  background-color: #f8f9fd;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+    /* background-color: burlywood; */
+    
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(30, 75, 210);
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding: 30px;
+    
+    color: #FFFF;
+    font-size: 1.2rem;
+}
+
+#filter {
+    background-color: #122760;
+    
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.297);
+
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+
+    font-size: 1rem;
+    color: #FFFF;
+
+}
+
+#result{
+    /* background-color: aqua; */
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+li{
+    /* background-color: orangered; */
+    
+    width: 99vw;
+    position: relative;
+    right: 20px;
+
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid #5d2f2f29;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.101);
+
+    gap: 20px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+li img{
+    border-radius: 100%;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.297);
+
+}
